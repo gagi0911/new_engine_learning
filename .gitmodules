@@ -5,3 +5,9 @@
 [submodule "Hazel/vendor/GLFW"]
 	path = Hazel/vendor/GLFW
 	url = https://github.com/gagi0911/glfw
+[submodule "Hazel/vendor/imgui"]
+	path = Hazel/vendor/imgui
+	url = https://github.com/gagi0911/imgui
+[submodule "Hazel/vendor/glm"]
+	path = Hazel/vendor/glm
+	url = https://github.com/g-truc/glm
