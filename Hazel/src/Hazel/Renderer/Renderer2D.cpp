@@ -53,7 +53,8 @@ namespace Hazel {
 		uint32_t WhiteTextureData = 0xffffffff;
 		s_2Data->WhiteTexture->SetData(&WhiteTextureData, sizeof(uint32_t));
 
-		s_2Data->TextureShader = Shader::Create("assets/shaders/Texture.glsl");
+		//s_2Data->TextureShader = Shader::Create("assets/shaders/Texture.glsl");
+		s_2Data->TextureShader = Shader::Create("assets/shaders/Texture_demo.glsl");
 		s_2Data->TextureShader->Bind();
 		s_2Data->TextureShader->SetInt(0, "u_Texture");
 	}
